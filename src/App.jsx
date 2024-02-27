@@ -1,13 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import InputForm from './components/InputForm'
-import Table from './components/Table'
+// import Table from './components/Table'
+import Table2 from './components/Table2'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
   <>
@@ -18,7 +19,7 @@ function App() {
       <InputForm/>
     </div>
     <div className="w-2/3">
-      <Table/>
+      <Table2/>
     </div>
   </div>
   </>
